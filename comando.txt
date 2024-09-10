@@ -1,0 +1,1 @@
+docker run -d --name div_bot_watchdog --hostname div_bot_watchdog --restart always -v /opt/bot_div_watchdog:/app -p 5000:5000 div_bot_farejador
